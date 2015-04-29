@@ -1,0 +1,69 @@
+header, h1, a, p, body, div {
+    margin: 0;
+    padding: 0;
+}
+header {
+    width: 120px;
+    margin: 20px auto;
+}
+header h1 {
+    font-family: Arial;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+#newGame {
+    font-family: Arial;
+    font-size: 20px;
+    display: block;
+    width: 60px;
+    margin: 0 auto;
+    padding: 10px 20px;
+    text-align: center;
+    color: #fff;
+    border-radius: 5px;
+    background: #8f7a66;
+    margin-bottom: 20px;
+}
+#newGame:hover {
+    cursor: pointer;
+    background-color: #9f8b77;
+}
+#score {
+    font-family: Arial;
+    font-weight: bold;
+    text-align: center;
+}
+#container {
+    position: relative;
+    width: 480px;
+    height: 480px;
+    margin: 50px auto;
+    padding: 10px;
+    border-radius: 10px;
+    background: #bbada0;
+}
+.gridCell div {
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border-radius: 5px;
+    background: #ccc0b3;
+}
+.gridNum {
+    font-family: Arial;
+    font-size: 60px;
+    line-height: 100px;
+    position: absolute;
+    text-align: center;
+    border-radius: 5px;
+}
+#ganmeOver {
+    font-size: 20px;
+    width: 60px;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 5px;
+    background: #eee;
+}
